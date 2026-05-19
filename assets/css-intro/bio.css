@@ -1,7 +1,7 @@
-/* внутрішні стилі */
 h1 {
         color: #080feb;
         text-align: center;
+        /* font-size: 32px; */
       }
       p {
         color:blue
