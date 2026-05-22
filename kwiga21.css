@@ -1,0 +1,62 @@
+body{
+  text-align: center;
+}
+.head-welcome{
+  background-image:url(./assets/images/images.jpg) ;/* Шлях до вашого зображення */
+  background-size: cover;                        /* Розтягує картинку на весь хедер */
+  background-position: center;                   /* Центрує зображення */
+  background-repeat: no-repeat;                  /* Забороняє повторення картинки */
+  height: 200px;                                  /* Задайте потрібну висоту */
+  width: 100%;
+  color: aliceblue;
+  text-align: center;
+}
+.head-but{
+  padding: 10px 20px 10px;
+  background-color: rgb(107, 104, 104);
+  color: aliceblue;
+  border: 5px solid rgb(65, 66, 65);
+}
+.lorem-art{
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  margin: 0 10px;
+  text-decoration: none;
+  vertical-align: top;
+}
+.long{
+  background-color:rgb(55, 54, 53)
+}
+.art{
+  background-color:antiquewhite;
+  height: 250px;
+}
+.blok{
+  background-color:rgb(255, 255, 255);
+  display: inline-block;
+  width: 200px;
+  height: 400px;
+  vertical-align: top;
+  margin-top: 25px;
+}
+.bly{
+  background-color:aqua;
+  display: inline-block;
+  width: 450px;;
+  padding: 10px;
+  margin: 0 10px;
+  text-decoration: none;
+  vertical-align: top;
+  color:white;
+}
+.greu{
+  background-color:rgb(47, 48, 48);
+  display: inline-block;
+  width: 450px;
+  padding: 10px;
+  margin: 0 10px;
+  text-decoration: none;
+  vertical-align: top;
+  color:white;
+}
