@@ -1,17 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
 body{
   text-align: center;
+  font-family: sans-serif;
 }
+
+h1, h2, h3 {
+  margin: 0
+}
+
 .head-welcome{
-  background-image:url(./assets/images/images.jpg) ;/* Шлях до вашого зображення */
+  background-image:url(../images/images.jpg) ;/* Шлях до вашого зображення */
   background-size: cover;                        /* Розтягує картинку на весь хедер */
   background-position: center;                   /* Центрує зображення */
   background-repeat: no-repeat;                  /* Забороняє повторення картинки */
-  height: 200px;                                  /* Задайте потрібну висоту */
-  width: 100%;
+  /*min-height: 200px;                                  /* Задайте потрібну висоту */
   color: aliceblue;
   text-align: center;
+  padding: 20px 50px;
 }
-.head-but{
+.head-button{
   padding: 10px 20px 10px;
   background-color: rgb(107, 104, 104);
   color: aliceblue;
@@ -20,43 +36,67 @@ body{
 .lorem-art{
   display: inline-block;
   width: 200px;
-  padding: 10px;
+  /* padding: 10px; */
   margin: 0 10px;
   text-decoration: none;
   vertical-align: top;
 }
 .long{
-  background-color:rgb(55, 54, 53)
+  background-color:rgb(55, 54, 53);
 }
+
+.text-container {
+  margin-top: 12px;
+}
+
 .art{
   background-color:antiquewhite;
-  height: 250px;
+  padding: 20px 10px;
+
 }
+
+.blok-container {
+  padding: 20px;
+}
+
 .blok{
   background-color:rgb(255, 255, 255);
   display: inline-block;
   width: 200px;
   height: 400px;
   vertical-align: top;
-  margin-top: 25px;
+  padding: 0 10px;
+}
+
+.footer-info-card-container {
+  font-size: 0;
+}
+
+.footer-info-card {
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
+  text-decoration: none;
+  vertical-align: top;
+  color:white;
+  font-size: 16px;
 }
 .bly{
   background-color:aqua;
-  display: inline-block;
-  width: 450px;;
-  padding: 10px;
-  margin: 0 10px;
-  text-decoration: none;
-  vertical-align: top;
-  color:white;
 }
 .greu{
   background-color:rgb(47, 48, 48);
-  display: inline-block;
-  width: 450px;
-  padding: 10px;
-  margin: 0 10px;
-  text-decoration: none;
-  vertical-align: top;
-  color:white;
+}
+
+.main-footer a{
+  color: #2690d4;
+    text-decoration: none;
+}
+.content-footer{
+  background-color: #000000;
+  color: aliceblue;
+}
+
+.project-author{
+  margin-left: 50px;
 }
