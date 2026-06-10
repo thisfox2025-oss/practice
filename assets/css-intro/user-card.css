@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
+html{
+  --user-photo-width:150px;
+}
+
 .bg {
   background-image: url(../images/pexels-jonathanborba-16002198.jpg) ;
   height: 150px;
@@ -23,7 +28,7 @@ a {
   min-width: 250px;
   margin: 50px auto;
   border-radius: 30px;
-  box-shadow: 0px 0px 20px 0px #000000;
+  box-shadow: 0px 0px 20px 0px #5f1b5b;
   overflow: hidden;
   text-align: center;
 
@@ -32,10 +37,49 @@ img {
   width: 300px;
 }
 .imgUser {
-  width: 100px;
-  height: 100px;
+  width: var(--user-photo-width);
+  height:  var(--user-photo-width);
   object-fit: cover;
   border-radius:50%;
   display: inline-block;
-  margin-top: 50px;
+  margin-top: calc( (-1) * var(--user-photo-width) / 2);
+  border: 3px solid rgb(120, 26, 112);
+}
+
+.content-wrapper{
+  padding: 0 1em 1em ;
+}
+
+.userName {
+  font-size: 1.5rem;
+  margin-top: 0.5em;
+}
+
+.userGeoposition {
+  font-size: 1rem;
+  margin-top: 0.5em;
+}
+
+.job {
+  font-size: 1.2rem;
+  margin-top: 0.4em;
+}
+
+.experience{
+  font-size: 1rem;
+  margin: 1.2em;
+}
+
+.userSocialLink{
+  color:aliceblue;
+  font-size: 1.5rem;
+  background-color:#6b5a6a;
+  border-radius:50%;
+  padding-top: 10px;
+  width: 45px;
+  height: 45px;
+}
+
+.userSocialLink + .userSocialLink{
+  margin-left: 30px;
 }

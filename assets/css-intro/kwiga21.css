@@ -34,7 +34,6 @@ h1, h2, h3 {
   border: 5px solid rgb(65, 66, 65);
 }
 .lorem-art{
-  display: inline-block;
   width: 200px;
   /* padding: 10px; */
   margin: 0 10px;
@@ -47,6 +46,9 @@ h1, h2, h3 {
 
 .text-container {
   margin-top: 12px;
+    display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .art{
@@ -57,11 +59,13 @@ h1, h2, h3 {
 
 .blok-container {
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .blok{
   background-color:rgb(255, 255, 255);
-  display: inline-block;
   width: 200px;
   height: 400px;
   vertical-align: top;
@@ -70,10 +74,11 @@ h1, h2, h3 {
 
 .footer-info-card-container {
   font-size: 0;
+    display: flex;
+  justify-content: center;
 }
 
 .footer-info-card {
-  display: inline-block;
   width: 50%;
   padding: 10px;
   text-decoration: none;

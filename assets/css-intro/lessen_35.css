@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+/* 
+.outerBlock {
+  border: 5px solid gray;
+}
+
+.innerBlock {
+  border: 5px solid rebeccapurple;
+  padding: 10px;
+  font-size: 2rem;
+
+}
+
+.flexParent {/*menu*/
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.flexChild {
+}
+.Child4 {
+  
+} */ 
+ /* header{
+  background-color: #665b5b;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+ }
+ a{
+  text-decoration: none;
+  color: initial;
+  border : 1px solid rgb(86, 24, 24);
+  padding: 30px 20px;
+ }
+
+ h1{
+  font-size: 2rem;
+  margin-bottom: 1em;
+ }
+
+ p{
+  font-size: 1rem;
+  margin-bottom: 1em;
+ } */
+  header, div, footer{ /*lesson Kwiga 36 FlexBox Practice*/
+    border: 2px solid rebeccapurple;
+    flex-direction: column; 
+  }
+  nav, main{
+    border: 2px solid rgb(23, 230, 119);
+  }
+  body{
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+  }
+  footer{
+    margin-top: auto;
+  }
+  div{
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    min-width: 20px;
+  }
+  nav{
+    width: 25%;
+  }
+  main{
+    width: 75%;
+  }
+  header, footer{
+    width: 100%;
+  }
+

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.header-container {
+}
+.header-logo {
+  width: 150px;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 50px 45px;
+}
+.header-poster {
+  background-image: url("/assets/images/Rectangle\ 48.png");
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 160px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-poster-content {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 80px;
+}
+.header-nav-items-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 580px;
+  width: 580px;
+  gap: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.header-nav-item {
+  text-decoration: none;
+}
+.header-nav-item.active {
+  color: #fa4a0c;
+}
+
+.footer-container {
+  margin-top: auto;
+}
+/* div{
+    max-width: 1000px;
+    width: 100%;
+    min-width: 20px;
+  } */
+.width-100 {
+  width: 100%;
+}
+/* .header, .footer-container{
+    width: 100%;
+  } */

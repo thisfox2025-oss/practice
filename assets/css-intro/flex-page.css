@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #926239;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0%;
+  text-align: center;
+  width: 100%;
+}
+
+.welcome-blok {
+  background-image: url(/assets/images/Знімок\ екрана\ 2026-06-09\ 074214.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.read-more {
+  border-radius: 10px;
+  border: 0.5px solid #926239;
+  padding: 15px 20px;
+  font-size: 1em;
+  background-color: rgba(181, 78, 78, 0);
+  color: #926239;
+  margin-top: 20px;
+}
+
+.text-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-container {
+  padding: 20px;
+  background-color: #926239;
+  color: aliceblue;
+}
+
+.text-container.full-width {
+  width: 100%;
+}
+
+.text-container.one-third-width {
+  width: calc(100% / 3);
+}
+
+.text-container:nth-child(even) {
+  background-color: aliceblue;
+  color: #926239;
+}
+/* 
+.first-block{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#926239;
+  color:aliceblue;
+  padding: 3vh;
+}
+
+.second-block {   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3vh;}
+
+  .third-block {
+ display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  background-color:#926239;
+  color:aliceblue;
+  padding: 3vh;
+  flex-wrap: nowrap;
+  
+  }
+  .fourth-block { display: flex;
+  align-items: baseline;
+  justify-content:space-between;
+  padding: 3vh;
+  flex-wrap: nowrap;} */
