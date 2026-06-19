@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+section * {
+  margin-bottom: 20px;
+}
+section :first-child {
+  color: rgb(75, 6, 144);
+}
+section :last-child {
+  color: rgb(8, 62, 62);
+}
+
+section :first-of-type {
+  background-color: aquamarine;
+}
+
+article :last-child {
+  font-size: larger;
+}
+p:first-of-type {
+  font-style: bold;
+}
+
+table {
+  border: 3px solid black;
+  border-collapse: collapse;
+  border-spacing: 5px;
+}
+td,th {
+  border: 3px solid black;
+ }

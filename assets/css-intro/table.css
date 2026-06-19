@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.table-conteuner {
+  margin: 50px 100px;
+  border: 2px solid 0e6a75;
+  color: #f3f3f2;
+  text-align: center;
+  text-transform: capitalize;
+}
+tbody .table_block:nth-child(2n + 1) {
+}
+tr:nth-child(2) {
+}
+.table_block {
+
+  border: 2px solid #0e6a75;
+  padding: 5px 10px;
+}
+.academic,
+.person {
+  background-color: #3a6c72;
+  text-align: center;
+  padding: 10px 5px;
+}
+.grey-block {
+vertical-align: middle;
+  background-color: #838997;
+  color: #f3f3f2;
+}
+.address {
+  background-color: #aaaaaa;
+  color: #f3f3f2;
+}
+.tbody {
+  color: black;
+}
+
+.tbody > tr:nth-child(2n) {
+  background-color: #e9e9e9;
+}
